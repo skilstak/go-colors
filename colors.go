@@ -42,6 +42,8 @@ const (
 	X       = Reset
 	Clear   = "\033[H\033[2J"
 	CL      = Clear
+	CurOff  = "\033[?25l"
+	CurOn   = "\033[?25h"
 )
 
 var Colors = []string{Y, O, R, M, V, B, C, G}
