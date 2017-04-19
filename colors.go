@@ -40,8 +40,11 @@ const (
 	G       = Green
 	Reset   = "\033[0m"
 	X       = Reset
-	Clear   = "\033[H\033[2J"
+	Screen  = "\033[2J\033[H"
 	CL      = Clear
+	Clear   = Clear
+	Line    = "\033[2K\033[G"
+	L       = Line
 	CurOff  = "\033[?25l"
 	CurOn   = "\033[?25h"
 )
