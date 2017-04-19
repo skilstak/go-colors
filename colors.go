@@ -41,8 +41,8 @@ const (
 	Reset   = "\033[0m"
 	X       = Reset
 	Screen  = "\033[2J\033[H"
-	CL      = Clear
-	Clear   = Clear
+	CL      = Screen
+	Clear   = Screen
 	Line    = "\033[2K\033[G"
 	L       = Line
 	CurOff  = "\033[?25l"
